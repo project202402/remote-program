@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.20)
+project(all)
+set(CMAKE_CXX_STANDARD 20)
+
+include_directories(${CMAKE_SOURCE_DIR}/src)
+include(${CMAKE_SOURCE_DIR}/cmake/3rd.cmake)
+
+add_subdirectory(client)
+add_subdirectory(common)
+add_subdirectory(manager)
+add_subdirectory(message_loop)
+add_subdirectory(net)
+add_subdirectory(utils)
+add_subdirectory(plugins/file)
+add_subdirectory(plugins/host)
+add_subdirectory(plugins/screen)
+add_subdirectory(plugins/shell)
+add_subdirectory(server)

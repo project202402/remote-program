@@ -1,0 +1,20 @@
+[submodule "3rd/ImGuiFileDialog"]
+	path = 3rd/ImGuiFileDialog
+	url = https://github.com/aiekick/ImGuiFileDialog.git
+[submodule "3rd/json"]
+	path = 3rd/json
+	url = https://github.com/nlohmann/json.git
+[submodule "3rd/imgui"]
+	path = 3rd/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = v1.91.0-docking
+[submodule "3rd/stb"]
+	path = 3rd/stb
+	url = https://github.com/nothings/stb.git
+[submodule "3rd/asio-1.30.2"]
+	path = 3rd/asio-1.30.2
+	url = https://github.com/chriskohlhoff/asio.git
+	branch = asio-1-30-2
+[submodule "3rd/MemoryModulePP"]
+	path = 3rd/MemoryModulePP
+	url = https://github.com/strivexjun/MemoryModulePP.git
